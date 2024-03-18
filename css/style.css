@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+:root {
+  --verde: hsl(75, 94%, 57%);
+  --cinza: hsl(0, 0%, 20%);
+  --cinza-escuro: hsl(0, 0%, 12%);
+  --preto: hsl(0, 0%, 8%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--preto);
+}
+
+main {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+main .attribution {
+  color: #fff;
+  margin-top: 15px;
+}
+main .attribution .break {
+  display: none;
+}
+main .attribution a {
+  color: rgba(241, 241, 241, 0.9450980392);
+  cursor: pointer;
+  transition: 0.3s;
+}
+main .attribution a:hover {
+  color: var(--verde);
+}
+
+.card {
+  background-color: var(--cinza-escuro);
+  height: 620px;
+  width: 450px;
+  padding: 30px 22px;
+  border-radius: 22px;
+}
+.card .img {
+  margin-bottom: 20px;
+}
+.card .img img {
+  width: 120px;
+  border-radius: 50%;
+}
+.card .id {
+  margin-bottom: 20px;
+}
+.card .id p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+.card .id span {
+  color: var(--verde);
+  font-weight: 500;
+  font-size: 20px;
+}
+.card p {
+  color: #ccc;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.card .box .box-item {
+  margin-bottom: 10px;
+  padding: 15px 0;
+  background-color: var(--cinza);
+  color: #fff;
+  font-weight: 600;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.card .box .box-item:hover {
+  background-color: var(--verde);
+  color: #000;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    overflow: hidden;
+  }
+  main {
+    margin: 30px auto;
+  }
+  main .attribution {
+    margin-top: 25px;
+    line-height: 25px;
+  }
+  main .attribution .break {
+    display: block;
+  }
+  .card {
+    border-radius: 10px;
+    height: 570px;
+    width: 300px;
+    padding: 30px 20px;
+  }
+  .card .img {
+    margin-bottom: 20px;
+  }
+  .card .img img {
+    width: 100px;
+  }
+  .card .id {
+    margin-bottom: 15px;
+  }
+  .card .id p {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .card .id span {
+    font-size: 20px;
+  }
+  .card p {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .card .box {
+    color: white;
+    display: flex;
+    align-items: center;  
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card .box .box-item {
+    color: white;
+    width: 250px;
+    margin-bottom: 16px;
+    padding: 10px 0;
+    border-radius: 5px;
+  }
+ 
+  
+  
+ 
+  
+  
+  /* Add styles for your specific loading element (e.g., spinner animation) */
+  
+}/*# sourceMappingURL=style.css.map */

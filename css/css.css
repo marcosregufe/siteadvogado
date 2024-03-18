@@ -1,0 +1,22 @@
+.botao-whatsapp {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 999;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #25D366;
+    color: #fff;
+    text-align: center;
+    font-size: 1.9rem;
+    transition: 0.3s;
+  }
+  
+  .botao-whatsapp:hover {
+    background-color: #12A454;
+  }
+  
+  .fa-whatsapp {
+    margin-top: 10px;
+  }
